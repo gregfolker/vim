@@ -17,8 +17,25 @@ Plugins are installed using `vim-plug` available [here](https://github.com/juneg
 | Vim-tmux Navigator | [github.com/christoomey/vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) | Offers seamless navigation between Vim windows and tmux panes |
 
 ### Custom Mappings
-| Keystroke | Action |
-| :---: | :---: |
-| `<Ctrl-z>` | Toggle Nerd-Tree |
-| `<Ctrl-f>` | Open Fuzzy-Finder |
-| `<jk>` | Exit insert mode (`Esc`) |
+| Keystroke | Action | Mode(s) |
+| :---: | :---: | :---: |
+| `<,>` | Leader Key | Normal/Visual |
+| `<C-z>` | Toggle Nerd-Tree | Normal |
+| `<C-f>` | Open Fuzzy-Finder | Normal |
+| `<jk>` | Exit insert mode (`Esc`) | Insert |
+| `<H>` | Move the cursor to the beginning of the current line | Normal |
+| `<L>` | Move the cursor to the end of the current line | Normal |
+| `<b>` | Move the cursor to the previous word | Normal |
+| `<C-d>`| Delete the current line | Normal |
+| `<->` |  Move the current line down a line | Normal |
+| `<_>` |  Move the current line up a line | Normal |
+| `<=>` |  Create a copy the current line | Normal |
+| `<leader><space>` | Clear the highlighting of search results | Normal |
+| `<space>` | Open/Close a fold | Normal |
+| `<return>` | Add a blank line below the current line | Normal |
+| `<leader>;`| Add a semicolon to the end of the current line | Normal |
+| `<C-u>`| Capitalize all the characters in the word under the cursor | Normal |
+| `<ss>` | Add a space character under the cursor | Normal |
+| `<leader>ev` | Open `~/.vimrc` for editing in a horizontal split | Normal |
+| `<leader>sv` | Reload `~/.vimrc` in the current Vim session | Normal |
+
