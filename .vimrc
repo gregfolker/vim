@@ -132,10 +132,7 @@ call plug#end()
    inoremap <Esc> <nop>
    " }}}
    " Text Manipulation {{{
-   inoremap <C-d> <esc>ddi
    inoremap <C-u> <esc>viwU
-   inoremap <leader>[ {<CR><CR>}<Up><Tab><C-R>=Eatchar('\s')<CR>
-   inoremap <leader>\ ()<Left><C-R>=Eatchar('\s')<CR>
    " }}}
    " }}}
 " }}}
