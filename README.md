@@ -19,10 +19,7 @@ Install `vim-plug` to `~/.vim/autoload` with the command
 ---
 
 | Keystroke | Action |
----
+| :---: | :---: | :---: |
 | `<Ctrl-z>` | Toggle Nerd-Tree |
----
 | `<Ctrl-f>` | Open Fuzzy-Finder |
----
 | `<jk>` | Exit insert mode (`Esc`) |
----
