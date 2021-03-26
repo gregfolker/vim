@@ -148,6 +148,9 @@ call plug#end()
      autocmd!
      " Always delete trailing white space when writing to a file
      autocmd BufWritePre * :%s/\s\+$//e
+     " Exit Vim if NERDTree is the only Window left open
+     autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
+         \ quit | endif
   augroup END
   " }}}
   " Vim {{{
