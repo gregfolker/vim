@@ -1,5 +1,4 @@
 ## Vim
-### Author: Greg Folker
 ---
 ### Overview
 Personal configuration files for the Vim text-editor
