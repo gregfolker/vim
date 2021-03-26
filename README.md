@@ -2,17 +2,21 @@
 ### Author: Greg Folker
 ---
 ### Overview
----
 Personal configuration files for the Vim text-editor
-### Installation
----
-Install `vim-plug` to `~/.vim/autoload` with the command
 
-> $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+### Plugins
+Plugins are installed using `vim-plug` available [here](https://github.com/junegunn/vim-plug)
 
-### Mappings
----
+`vim-plug` should be installed automatically if it is not already from the code at the top of
+`.vimrc`
 
+TODO: Fill this out
+| Plugin | Link | Purpose |
+| :---: | :---: | :---: |
+| Nerd Tree | | |
+| Fuzzy Finder| | |
+
+### Custom Mappings
 | Keystroke | Action |
 | :---: | :---: |
 | `<Ctrl-z>` | Toggle Nerd-Tree |
