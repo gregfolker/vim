@@ -125,6 +125,12 @@ call plug#end()
    nnoremap <C-u> viwU
    nnoremap ss i<space><esc>
    " }}}
+   " {{{ Operator-Pending Mappings
+   onoremap in( :<c-u>normal! f(vi(<cr>
+   onoremap il( :<c-u>normal! F)vi(<cr>
+   onoremap in{ :<c-u>normal! f{vi{<cr>
+   onoremap il{ :<c-u>normal! F}vi{<cr>
+   " }}}
    " }}}
    " Insert Mode {{{
    " <Esc> Key {{{

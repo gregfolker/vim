@@ -30,6 +30,10 @@ Plugins are installed using `vim-plug` available [here](https://github.com/juneg
 | `<->` |  Move the current line down a line | Normal |
 | `<_>` |  Move the current line up a line | Normal |
 | `<=>` |  Create a copy the current line | Normal |
+| `cin(`| Delete all text in the next set of `()` on the current line | Normal |
+| `cln(`| Delete all text in the last set of `()` on the current line | Normal |
+| `cin{`| Delete all text in the next set of `{}` on the current line | Normal |
+| `cln{`| Delete all text in the last set of `{}` on the current line | Normal |
 | `<leader><space>` | Clear the highlighting of search results | Normal |
 | `<space>` | Open/Close a fold | Normal |
 | `<return>` | Add a blank line below the current line | Normal |
