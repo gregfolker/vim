@@ -40,10 +40,16 @@ call plug#end()
    set splitright    " New windows opened vertically will appear to the right of the current window
    " }}}
    " Generic Options {{{
+   " {{{ Status Bar
+   set statusline=%f    " Path to the open file
+   set statusline+=%=   " Move to the right side of the bar
+   set statusline+=%l   " Show the current line of the cursor
+   set statusline+=/    " Separator
+   set statusline+=%L   " Show the total number of lines in the file
+   set showmode         " Shows the current mode in the status bar
+   " }}}
    set foldenable
    set noswapfile
-   set laststatus=2
-   set showmode      " Shows the current mode in the status bar
    set number
    set showcmd       " Shows the last command run
    set showmatch     " Highlight matching brackets/braces
