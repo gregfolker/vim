@@ -36,6 +36,12 @@ call plug#end()
    set ts=3 sw=3 sts=3
    " }}}
    " Window Management {{{
+   "
+   " Vim Definitions
+   "     Buffer - An open file in memory. Can be active, hidden, or inactive
+   "     Window - A space in which you can view the contents of a buffer
+   "     Tab - A container for a bunch of windows
+   "
    set splitbelow    " New windows opened horizontally will appear below the current window
    set splitright    " New windows opened vertically will appear to the right of the current window
    " }}}
