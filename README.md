@@ -22,6 +22,8 @@ Plugins are installed using `vim-plug` available [here](https://github.com/juneg
 | `<,>` | Leader Key | Normal/Visual |
 | `<C-z>` | Toggle Nerd-Tree | Normal |
 | `<C-f>` | Open Fuzzy-Finder | Normal |
+| `C-j` | Move to the next window | Normal/Insert |
+| `C-k` | Move to the previous window | Normal/Insert |
 | `<jk>` | Exit insert mode (`Esc`) | Insert |
 | `<H>` | Move the cursor to the beginning of the current line | Normal |
 | `<L>` | Move the cursor to the end of the current line | Normal |
@@ -36,7 +38,7 @@ Plugins are installed using `vim-plug` available [here](https://github.com/juneg
 | `cln{`| Delete all text in the last set of `{}` on the current line | Normal |
 | `<leader><space>` | Clear the highlighting of search results | Normal |
 | `<space>` | Open/Close a fold | Normal |
-| `<return>` | Add a blank line below the current line | Normal |
+| `<cr>` | Add a blank line below the current line | Normal |
 | `<leader>;`| Add a semicolon to the end of the current line | Normal |
 | `<C-u>`| Capitalize all the characters in the word under the cursor | Insert |
 | `<ss>` | Add a space character under the cursor | Normal |
