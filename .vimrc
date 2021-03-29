@@ -24,6 +24,9 @@ call plug#begin('$HOME/.vim/plugged')
    " {{{ vim-tmux-navigator
    Plug 'christoomey/vim-tmux-navigator'
    " }}}
+   " Buffer Bye {{{
+   Plug 'moll/vim-bbye'
+   " }}}
    " {{{ Rust Syntax Highlighting
    Plug 'rust-lang/rust'
    " }}}
@@ -136,6 +139,9 @@ call plug#end()
    " Text Manipulation {{{
    nnoremap <C-u> viwU
    nnoremap ss i<space><esc>
+   " }}}
+   " Window Manipulation {{{
+   nnoremap <Leader>q :Bdelete<cr>
    " }}}
    " {{{ Operator-Pending Mappings
    onoremap in( :<c-u>normal! f(vi(<cr>
