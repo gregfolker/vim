@@ -27,6 +27,9 @@ call plug#begin('$HOME/.vim/plugged')
    " Buffer Bye {{{
    Plug 'moll/vim-bbye'
    " }}}
+   " Winresizer {{{
+   Plug 'simeji/winresizer'
+   " }}}
    " {{{ Rust Syntax Highlighting
    Plug 'rust-lang/rust'
    " }}}
@@ -142,6 +145,7 @@ call plug#end()
    " }}}
    " Window Manipulation {{{
    nnoremap <Leader>q :Bdelete<cr>
+   let g:winresizer_start_key = "<leader>w"
    " }}}
    " {{{ Operator-Pending Mappings
    onoremap in( :<c-u>normal! f(vi(<cr>

@@ -16,6 +16,7 @@ Plugins are installed using `vim-plug` available [here](https://github.com/juneg
 | Fugitive | [github.com/tpope/vim-fugitive](https://github.com/tpope/vim-fugitive) | Wrapper for running Git commands in Vim|
 | Vim-tmux Navigator | [github.com/christoomey/vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) | Offers seamless navigation between Vim windows and tmux panes |
 | Buffer Bye | [github.com/moll/vim-bbye](https://github.com/moll/vim-bbye) | Allows windows to remain open and in their position after closing an open buffer |
+| Winresizer | [github.com/simeji/winresizer](https://github.com/simeji/winresizer) | Offers seamless management of resizing and moving open windows |
 
 ### Custom Mappings
 | Keystroke | Action | Mode(s) |
@@ -26,6 +27,7 @@ Plugins are installed using `vim-plug` available [here](https://github.com/juneg
 | `C-j` | Move to the next window | Normal/Insert |
 | `C-k` | Move to the previous window | Normal/Insert |
 | `<leader>q` | Closes the open buffer and keeps Windows in their respective locations | All |
+| `<leader>w` | Enter 'resize' mode | All |
 | `<jk>` | Exit insert mode (`Esc`) | Insert |
 | `<H>` | Move the cursor to the beginning of the current line | Normal |
 | `<L>` | Move the cursor to the end of the current line | Normal |
