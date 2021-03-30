@@ -169,6 +169,7 @@ call plug#end()
   augroup filetype_set
      autocmd!
      autocmd BufNewFile,BufRead *.log set filetype=log
+     autocmd BufNewFile,BufRead *.bin set filetype=bin
   augroup END
   " }}}
   " Global {{{
@@ -186,6 +187,13 @@ call plug#end()
      autocmd!
      autocmd FileType vim setlocal foldlevel=0
      autocmd FileType vim setlocal foldmethod=marker
+  augroup END
+  " }}}
+  " Binary {{{
+  augroup filetype_bin
+     autocmd!
+     autocmd FileType bin setlocal binary
+     autocmd FileType bin %!xxd
   augroup END
   " }}}
   " C {{{
