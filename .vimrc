@@ -152,6 +152,8 @@ call plug#end()
    onoremap il( :<c-u>normal! F)vi(<cr>
    onoremap in{ :<c-u>normal! f{vi{<cr>
    onoremap il{ :<c-u>normal! F}vi{<cr>
+   onoremap il" :<c-u>normal! F"vi"<cr>
+   onoremap il' :<c-u>normal! F'vi'<cr>
    " }}}
    " }}}
    " Insert Mode {{{
