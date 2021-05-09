@@ -71,6 +71,7 @@ call plug#end()
    set hlsearch      " Highlights search results
    set ignorecase    " Searches are not case sensitive
    set autowrite     " Autowrite the buffer when changes have been made to it
+   set background=dark
    " }}}
 " }}}
 " Filetype Settings {{{
