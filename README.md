@@ -48,4 +48,3 @@ Plugins are installed using `vim-plug` available [here](https://github.com/juneg
 | `ss` | Add a space character under the cursor | Normal |
 | `<leader>ev` | Open `~/.vimrc` for editing in a horizontal split | Normal |
 | `<leader>sv` | Reload `~/.vimrc` in the current Vim session | Normal |
-
