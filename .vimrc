@@ -30,9 +30,6 @@ call plug#begin('$HOME/.vim/plugged')
    " Winresizer {{{
    Plug 'simeji/winresizer'
    " }}}
-   " {{{ Rust Syntax Highlighting
-   Plug 'rust-lang/rust'
-   " }}}
 call plug#end()
 " }}}
 " Global Settings {{{
