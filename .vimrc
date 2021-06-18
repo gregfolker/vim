@@ -207,10 +207,10 @@ call plug#end()
   " C {{{
   augroup filetype_c
      autocmd!
-     autocmd FileType c,cpp ia <buffer> cb /*<CR><CR>/<Up><Up>
-     autocmd FileType c,cpp ia <buffer> #i #include
-     autocmd FileType c,cpp ia <buffer> #d #define
-     autocmd FileType c,cpp nnoremap <buffer> <leader>c I/*<space><esc>A<space>*/<esc>
+     autocmd FileType c ia <buffer> cb /*<CR><CR>/<Up><Up>
+     autocmd FileType c ia <buffer> #i #include
+     autocmd FileType c ia <buffer> #d #define
+     autocmd FileType c nnoremap <buffer> <leader>c I/*<space><esc>A<space>*/<esc>
      autocmd FileType c setlocal foldmethod=syntax
      autocmd FileType c setlocal foldlevel=99
   augroup END
