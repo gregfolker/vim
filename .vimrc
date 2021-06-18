@@ -209,6 +209,7 @@ call plug#end()
      autocmd!
      autocmd FileType c ia <buffer> iff if ()<CR>{<CR><CR>}<Up><Up><Up><Right><Right><Right><C-R>=Eatchar('\s')<CR>
      autocmd FileType c ia <buffer> wll while ()<CR>{<CR><CR>}<Up><Up><Up><Right><Right><Right><Right><Right><Right><C-R>=Eatchar('\s')<CR>
+     autocmd FileType c ia <buffer> swt switch ()<CR>{<CR><CR>}<Up><Up><Up><Right><Right><Right><Right><Right><Right><Right><C-R>=Eatchar('\s')<CR>
      autocmd FileType c ia <buffer> cb /*<CR><CR>/<Up><Up>
      autocmd FileType c ia <buffer> #i #include
      autocmd FileType c ia <buffer> #d #define
