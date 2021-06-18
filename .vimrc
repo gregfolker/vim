@@ -172,7 +172,7 @@ call plug#end()
    " }}}
    " }}}
 " }}}
-" Autocommands {{{
+" Filetype Specific Autocommands {{{
   " {{{ Set Custom Filetypes
   augroup filetype_set
      autocmd!
@@ -208,6 +208,7 @@ call plug#end()
   augroup filetype_c
      autocmd!
      autocmd FileType c ia <buffer> iff if ()<CR>{<CR><CR>}<Up><Up><Up><Right><Right><Right><C-R>=Eatchar('\s')<CR>
+     autocmd FileType c ia <buffer> wll while ()<CR>{<CR><CR>}<Up><Up><Up><Right><Right><Right><Right><Right><Right><C-R>=Eatchar('\s')<CR>
      autocmd FileType c ia <buffer> cb /*<CR><CR>/<Up><Up>
      autocmd FileType c ia <buffer> #i #include
      autocmd FileType c ia <buffer> #d #define
