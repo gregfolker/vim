@@ -231,6 +231,7 @@ call plug#end()
   " Go {{{
   augroup filetype_go
      autocmd!
+     autocmd FileType go ia <buffer> cb //<CR>//<CR>//<Up><Right><Right>
      autocmd FileType go nnoremap <buffer> <leader>c I//<esc>
   augroup END
   " }}}
