@@ -239,6 +239,7 @@ call plug#end()
      " https://stackoverflow.com/questions/32865744/vim-syntax-and-latex-math-inside-markdown
      syn region match start=/\\$\\$/ end=/\\$\\$/
      syn match math '\\$[^$].\{-}\$'
+     autocmd FileType md setlocal foldlevel=0
   augroup END
    " }}}
 " }}}
