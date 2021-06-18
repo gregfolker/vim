@@ -30,6 +30,9 @@ call plug#begin('$HOME/.vim/plugged')
    " Winresizer {{{
    Plug 'simeji/winresizer'
    " }}}
+   " vim-markdown-folding {{{
+   Plug 'masukomi/vim-markdown-folding'
+   " }}}
 call plug#end()
 " }}}
 " Global Settings {{{
@@ -69,6 +72,11 @@ call plug#end()
    set ignorecase    " Searches are not case sensitive
    set autowrite     " Autowrite the buffer when changes have been made to it
    set background=dark
+
+   set nocompatible
+   if has("autocmd")
+      filetype plugin indent on
+   endif
    " }}}
 " }}}
 " Filetype Settings {{{
