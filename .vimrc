@@ -212,6 +212,7 @@ call plug#end()
      autocmd FileType c ia <buffer> wll while ()<CR>{<CR><CR>}<Up><Up><Up><Right><Right><Right><Right><Right><Right><C-R>=Eatchar('\s')<CR>
      autocmd FileType c ia <buffer> swt switch ()<CR>{<CR><CR>}<Up><Up><Up><Right><Right><Right><Right><Right><Right><Right><C-R>=Eatchar('\s')<CR>
      autocmd FileType c ia <buffer> frr for (;;)<CR>{<CR><CR>}<Up><Up><Up><Right><Right><Right><Right><C-R>=Eatchar('\s')<CR>
+     autocmd FileType c ia <buffer> dwl do<CR>{<CR><CR>}<space>while()<Left><C-R>=Eatchar('\s')<CR>
 
      " Documentation/Comments
      autocmd FileType c ia <buffer> cb /*<CR><CR>/<Up>
