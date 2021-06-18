@@ -217,6 +217,9 @@ call plug#end()
      " Documentation/Comments
      autocmd FileType c ia <buffer> cb /*<CR><CR>/<Up>
      autocmd FileType c nnoremap <buffer> <leader>c I/*<space><esc>A<space>*/<esc>
+
+     " Abbreviations for auto-generating new data types
+     autocmd FileType c ia <buffer> newstruct struct<CR>{<CR><CR>};<Up><Up><Up><Right><Right><Right><Right><C-R>=Eatchar('\s')<CR>
   augroup END
   " }}}
   " Shell {{{
