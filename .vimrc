@@ -216,12 +216,6 @@ call plug#end()
      " Documentation/Comments
      autocmd FileType c ia <buffer> cb /*<CR><CR>/<Up>
      autocmd FileType c nnoremap <buffer> <leader>c I/*<space><esc>A<space>*/<esc>
-
-
-     autocmd FileType c ia <buffer> #i #include
-     autocmd FileType c ia <buffer> #d #define
-     autocmd FileType c setlocal foldmethod=syntax
-     autocmd FileType c setlocal foldlevel=99
   augroup END
   " }}}
   " Shell {{{
